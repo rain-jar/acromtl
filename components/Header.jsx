@@ -85,7 +85,7 @@ export default function Header() {
                     <nav className="flex flex-col gap-1 p-2">
                     <a href="/team" onClick={() => { setSlide(false); setTimeout(() => setOpen(false), 200) }} className="rounded-lg px-3 py-3 hover:bg-white/5">Team</a>
                     <a href="/about" onClick={() => { setSlide(false); setTimeout(() => setOpen(false), 200) }} className="rounded-lg px-3 py-3 hover:bg-white/5">About</a>
-                    <a href="/announcements" onClick={() => { setSlide(false); setTimeout(() => setOpen(false), 200) }} className="rounded-lg px-3 py-3 hover:bg-white/5">Announcements</a>
+                    <a href="/networkofcare" onClick={() => { setSlide(false); setTimeout(() => setOpen(false), 200) }} className="rounded-lg px-3 py-3 hover:bg-white/5">Network Of Care</a>
                     </nav>
                 </aside>
                 </>,
