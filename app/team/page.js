@@ -1,7 +1,7 @@
 import TeamCard from '../../components/TeamCard'
 import team from '../../data/team.json'
 
-export const metadata = { title: 'Team • Running Crew' }
+export const metadata = { title: 'Team • AcroCrew' }
 
 export default function TeamPage() {
   return (
