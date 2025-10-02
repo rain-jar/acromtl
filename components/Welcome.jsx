@@ -4,16 +4,13 @@ export default function WelcomeSection() {
       <div className="grid items-center gap-8 md:grid-cols-2">
         {/* Text (left) */}
         <div className="space-y-4">
-          <h2 className="text-2xl md:text-3xl font-semibold">Welcome to 45.48°N</h2>
+          <h2 className="text-2xl md:text-3xl font-semibold">Welcome to AcroMTL</h2>
           <p className="opacity-80 leading-relaxed">
-            We are a run crew based out of Little Burgundy, Montreal. And have been here since 2014, previously as the old Yamajo crew.
+            AcroMTL is Montreal's grassroots Acroyoga community; 
+            Come join us as we combine the art of yoga and connecting to others while lifting each other up. 
           </p>
             <p className="opacity-80 leading-relaxed">
-            Whether you've been running for just as long or for a day or even been on the fence about running, come join us!
-            </p>
-
-            <p className="opacity-80 leading-relaxed">
-            Because...
+              Challenge your body and mind to make shapes, play and exercise all in one class.            
             </p>
 {/*
  

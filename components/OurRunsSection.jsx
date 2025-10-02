@@ -4,21 +4,21 @@ import { useState } from 'react'
 const runs = [
   {
     id: 'sunrise',
-    title: 'Wednesdays',
+    title: 'Beginner & Intermediate Classes',
     img: '/run-1.png', // put images in /public
-    blurb: 'When : Wed Evenings 7pm \nWhere : from Atwater Market \nPace : 5K & 10K',
+    blurb: 'When : Wed 6.30pm \nWhere : White Wall Studio \n4532 Av. Laval, Montréal, QC H2T 2C4',
   },
   {
     id: 'tempo',
-    title: 'Saturdays',
+    title: 'Open Jam Session - Wed',
     img: '/run-2.png',
-    blurb: 'When : Sat 10am \nWhere : from Little Burgundy Gym \nPace : 5K & 10K',
+    blurb: 'When : Wed 7.30pm \nWhere : White Wall Studio \n4532 Av. Laval, Montréal, QC H2T 2C4',
   },
   {
     id: 'track',
-    title: 'SlowAF - Sexy Pace',
+    title: 'Open Jam Session - Sundays',
     img: '/run-3.png',
-    blurb: 'When : Monthly Wed 7pm \nWhere: from Little Burgundy Gym \nMax pace - 6.30min/km',
+    blurb: 'When : Sunday 3pm \nWhere: Paragym \n5465 Rue de Bordeaux, Montréal, QC H2H 2P9',
   },
 ]
 
@@ -31,7 +31,7 @@ function FlipCard({ title, img, blurb }) {
       <div
         className="h-full w-full rounded-2xl shadow-lg ring-1 ring-white/10 transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
       >
-        {/* Front (image) */}
+        {/* Front (image with overlay + centered text) */}
         <div
           className="absolute inset-0 rounded-2xl overflow-hidden [backface-visibility:hidden]"
         >
@@ -41,9 +41,13 @@ function FlipCard({ title, img, blurb }) {
             className="h-full w-full object-cover select-none"
             draggable="false"
           />
-          {/* Title bar overlay */}
-          <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/60 to-transparent p-3">
-            <div className="text-sm sm:text-base font-semibold">{title}</div>
+          {/* Subtle overlay */}
+          <div className="absolute inset-0 bg-black/50" />
+          {/* Centered text */}
+          <div className="absolute inset-0 flex items-center justify-center">
+            <span className="text-lg sm:text-xl font-semibold text-white drop-shadow-md">
+              {title}
+            </span>
           </div>
         </div>
 
@@ -53,8 +57,8 @@ function FlipCard({ title, img, blurb }) {
         >
           <div className="space-y-2 px-2">
             <div className="text-base sm:text-lg font-semibold">{title}</div>
-            <p className="text-sm sm:text-base opacity-80 leading-relaxed whitespace-pre-line">
-            {blurb}
+            <p className="text-sm sm:text-base opacity-90 leading-relaxed whitespace-pre-line">
+              {blurb}
             </p>
           </div>
         </div>
@@ -64,10 +68,11 @@ function FlipCard({ title, img, blurb }) {
 }
 
 
+
 export default function OurRunsSection() {
   return (
     <section className="mt-12 w-full px-4">
-      <h2 className="mb-4 text-2xl font-semibold">Our Runs</h2>
+      <h2 className="mb-4 text-2xl font-semibold">Come find us at : </h2>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {runs.map((r) => (
           <FlipCard key={r.id} title={r.title} img={r.img} blurb={r.blurb} />

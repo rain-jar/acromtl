@@ -9,7 +9,7 @@ export default function TeamPage() {
       <header className="mb-6">
         <h1 className="text-3xl font-semibold">Team</h1>
         <p className="mt-2 opacity-80">
-          Meet the crew that leads routes, pacing, and weekly sessions.
+          Meet our teachers and staff that serve the community
         </p>
       </header>
 

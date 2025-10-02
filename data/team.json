@@ -1,100 +1,55 @@
 [
   {
-    "id": "clara",
-    "name": "Clara",
-    "role": "Pacer",
-    "bio": "Hybrid Athlete, Canon",
-    "image": "/team/clara.png",
-    "instagram": "https://www.instagram.com/clara.descours/"
+    "id": "jill",
+    "name": "Jill Campbell",
+    "role": "Founder",
+    "bio": "Founder, Teacher",
+    "image": "/team/jill.png",
+    "instagram": "https://www.instagram.com/jillacroyoga/"
   },
   {
-    "id": "daniel",
-    "name": "Daniel",
-    "role": "Pacer",
-    "bio": "God of 10K",
-    "image": "/team/daniel.png",
-    "instagram": "https://www.instagram.com/daniel_foodstylist/"
+    "id": "Kato",
+    "name": "Kate Cawker",
+    "role": "Teacher",
+    "bio": "Lifeblood of AcroMTL",
+    "image": "/team/kate.png",
+    "instagram": "https://www.instagram.com/acro_kato_potato/"
   },
   {
-    "id": "jean",
-    "name": "Jean",
-    "role": "Pacer",
-    "bio": "Resident Thespian, Trackster",
-    "image": "/team/jean.png",
-    "instagram": "https://www.instagram.com/missjeannic/"
+    "id": "Heidi",
+    "name": "Heidi Blais",
+    "role": "Teacher",
+    "bio": "Pioneer of Hands-free movement",
+    "image": "/team/Heidi.png",
+    "instagram": "https://www.instagram.com/heidiblais/"
   },
-  {
-    "id": "kay",
-    "name": "Coach Kay",
-    "role": "Captain",
-    "bio": "Co-founder, Coach",
-    "image": "/team/kay.png",
-    "instagram": "https://www.instagram.com/coachkayzed/"
+
+    {
+    "id": "Jodie",
+    "name": "Jodie Hon",
+    "role": "Teacher",
+    "bio": "Known for her on technique and fluidity",
+    "image": "/team/Jodie.png",
+    "instagram": "https://www.instagram.com/jodiehon/"
   },
+
   {
-    "id": "lea",
-    "name": "Léa",
-    "role": "Pacer",
-    "bio": "Resident Baker, Route Genius",
-    "image": "/team/lea.png",
-    "instagram": "https://www.instagram.com/leadcp/"
-  },
-  {
-    "id": "macland",
-    "name": "Macland",
-    "role": "Pacer",
-    "bio": "Coach, Multi-Marathoner",
-    "image": "/team/macland.png",
-    "instagram": "https://www.instagram.com/mackyglau/"
-  },
-  {
-    "id": "mael",
-    "name": "Maël",
-    "role": "Pacer",
-    "bio": "Music man, Engineer",
-    "image": "/team/mael.png",
-    "instagram": "https://www.instagram.com/maeltlmq/"
-  },
-  {
-    "id": "sacha",
-    "name": "Sacha",
-    "role": "Pacer",
-    "bio": "Interval Master, Super-mom",
-    "image": "/team/sacha.png",
-    "instagram": "https://instagram.com/"
-  },
-  {
-    "id": "shereen",
-    "name": "Shereen",
-    "role": "Pacer",
-    "bio": "Math Wizard, Event Ninja",
-    "image": "/team/shereen.png",
-    "instagram": "https://www.instagram.com/shereen_elaidi/"
-  },
-  {
-    "id": "steph",
-    "name": "Stephanie",
-    "role": "Pacer",
-    "bio": "The Guide, The Flower Sorcerer",
-    "image": "/team/steph.png",
-    "instagram": "https://www.instagram.com/stephiebkk/"
+    "id": "Dom",
+    "name": "Dominique Dubowy",
+    "role": "Teacher",
+    "bio": "Leading the AcroMTL Network of Care ",
+    "image": "/team/dom.png",
+    "instagram": "https://www.instagram.com/deedominique/"
   }, 
+
   {
-    "id": "tiffany",
-    "name": "Tiffany",
-    "role": "Pacer",
-    "bio": "The OG, Hugging Bear",
-    "image": "/team/tiffany.png",
-    "instagram": "https://www.instagram.com/tiffanywho50/"
-  },
-  {
-    "id": "yvens",
-    "name": "Yvens",
-    "role": "Captain",
-    "bio": "Co-founder, Lens Magician",
-    "image": "/team/yvens.png",
-    "instagram": "https://www.instagram.com/yvensb/"
-  }
+    "id": "Marie-Pier",
+    "name": "Marie-Pier",
+    "role": "Teacher, Jambassador Coordinator",
+    "bio": "Running logistics for Jams and Social Media  ",
+    "image": "/team/marie-pier.png",
+    "instagram": "https://www.instagram.com/mariepierchede/"
+  } 
    
   
 ]

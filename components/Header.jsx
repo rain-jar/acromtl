@@ -52,7 +52,7 @@ export default function Header() {
                 className="h-6 w-6 sm:h-12 sm:w-12 md:h-12 md:w-12 pointer-events-auto"
                 />
                 <span className="text-sm sm:text-base md:text-lg font-semibold tracking-wide pointer-events-auto">
-                45.48°N
+                AcroMTL
                 </span>
             </Link>
         </div>
