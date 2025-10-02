@@ -7,7 +7,7 @@ export default function WelcomeSection() {
           <h2 className="text-2xl md:text-3xl font-semibold">Welcome to AcroMTL</h2>
           <p className="opacity-80 leading-relaxed">
             AcroMTL is Montreal's grassroots Acroyoga community; 
-            Come join us as we combine the art of yoga and connecting to others while lifting each other up. 
+            Come join us as we combine the art of yoga and connection, while lifting each other up. 
           </p>
             <p className="opacity-80 leading-relaxed">
               Challenge your body and mind to make shapes, play and exercise all in one class.            
