@@ -10,7 +10,7 @@ export default function WelcomeSection() {
             Come join us as we combine the art of yoga and connection, while lifting each other up. 
           </p>
             <p className="opacity-80 leading-relaxed">
-              Challenge your body and mind to make shapes, play and exercise all in one class.            
+              Challenge your body and mind to make shapes, play and exercise all at once.          
             </p>
 {/*
  
