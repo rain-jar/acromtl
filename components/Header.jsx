@@ -37,7 +37,7 @@ export default function Header() {
                 <nav className="hidden md:flex items-center gap-6 ml-auto">
                 <Link href="/team" className="hover:opacity-80">Team</Link>
                 <Link href="/about" className="hover:opacity-80">About</Link>
-                <Link href="/announcements" className="hover:opacity-80">Announcements</Link>
+                <Link href="/networkofcare" className="hover:opacity-80">Network Of Care</Link>
                 </nav>
             </div>
 
