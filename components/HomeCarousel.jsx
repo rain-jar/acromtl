@@ -20,7 +20,7 @@ export default function HomeCarousel() {
         speed={600}
         autoplay={{ delay: 3500, disableOnInteraction: false }}
         pagination={{ clickable: true }}
-        className="w-full aspect-[16/9] max-h-[32rem]"
+        className="w-full aspect-[16/9] max-h-[50rem]"
       >
         {slides.map((s, i) => (
           <SwiperSlide key={i}>

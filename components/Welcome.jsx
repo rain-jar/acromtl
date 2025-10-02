@@ -38,7 +38,7 @@ export default function WelcomeSection() {
           <img
             src="/welcome.png"             // add a placeholder image to /public/welcome.jpg
             alt="Welcome to the crew"
-            className="w-full md: h-auto relative max-h-[800px]"
+            className="w-full md: h-auto relative max-h-[1000px]"
             draggable="false"
           />
         </div>
